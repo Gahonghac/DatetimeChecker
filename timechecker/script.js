@@ -94,7 +94,7 @@ function validateInput(day, month, year) {
 }
 
 
-module.exports = {isInRangeDay, isInRangeYear}
+module.exports = {isInRangeDay, isInRangeYear};
 // document.getElementById("checkBtn").addEventListener("click", function() {
 //     var day = document.getElementById("day").value;
 //     var month = document.getElementById("month").value;
