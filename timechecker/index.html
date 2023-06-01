@@ -1,17 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Date Checker</title>
-    <link rel="stylesheet" href="style.css">
+	<style>
+		body {
+			font-family: Arial;
+			font-size: 16px;
+			position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+		}
+		
+		h1 {
+			color: blue;
+			font-size: 26px;
+		}
+		
+		label {
+			display: block;
+			text-align: left;
+			margin-top: 10px;
+		}
+		
+		input[type="text"] {
+			width: 150px;
+			padding: 5px;
+		}
+		
+		button {
+			margin-top: 10px;
+			padding: 5px 10px;
+			background-color: chartreuse;
+		}
+h1 {
+  color: blue;
+  font-size: 30px;
+}
+	</style>
+	
 </head>
 <body>
-    <p>Day Time Check</p>
-	<label for="day">Day:</label><input type="text" id="day"><br>
-	<label for="month">Month:</label><input type="text" id="month"><br>
-	<label for="year">Year:</label><input type="text" id="year"><br>
-	<button id="clear">Clear</button>
-	<button id="check">Check</button>
+	<h1>Date Time Checker</h1>
+	<label for="day">Day:</label>
+<input type="text" id="day"><br>
 
-	<script src="datechecker.js"></script>
+<label for="month">Month:</label>
+<input type="text" id="month"><br>
+
+<label for="year">Year:</label>
+<input type="text" id="year"><br>
+<button id="clearBtn">Clear</button>
+<button id="checkBtn">Check</button>
+
+
+	<script src="script.js"></script>
 </body>
 </html>
